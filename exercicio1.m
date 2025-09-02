@@ -8,7 +8,10 @@ imax = 20;
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % digite seu codigo aqui
-t = 0; % alterar
+t = 0; 
+H=2
+L=3
+g=9.81
 
 do
 alpha=func(t)/func_d(t);
