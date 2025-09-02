@@ -11,7 +11,7 @@ imax = 20;
 t = 0; % alterar
 
 do
-alpha=func(t_zz)/func_d(t_zz);
+alpha=func(t)/func_d(t);
 t=t-alpha;
 disp(t);
 beta=t-(t+alpha)
