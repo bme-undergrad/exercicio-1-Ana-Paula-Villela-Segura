@@ -16,7 +16,7 @@ t=t-alpha;
 disp(t);
 beta=t-(t+alpha)
 es=beta/t
-until omega<=0.01
+until es<=0.01
 
 
 endfunction
